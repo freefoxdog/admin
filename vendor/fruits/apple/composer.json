@@ -1,0 +1,35 @@
+{
+  "name": "fruits/apple",
+  "type": "library",
+
+  "description": "fruits apple library",
+  "license": "MIT",
+  "require": {
+
+  },
+  "authors": [
+    {
+      "name": "apple",
+      "email": "apple@qq.com"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "Fruits\\Apple\\": "src/"
+    }
+  },
+  "autoload": {
+    "psr-4": {"Fruits\\Apple\\": "src/"}
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fruits\\Apple\\NotificationProvider"
+      ]
+
+    }
+  }
+
+
+
+}
